@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="fszmq" Version="12.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="fszmq">
+      <HintPath>..\..\..\..\..\.nuget\packages\fszmq\12.3.2\lib\netstandard2.0\fszmq.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
